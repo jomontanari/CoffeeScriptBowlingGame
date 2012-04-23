@@ -1,4 +1,4 @@
-Bowling = Bowling || {}
+window.Bowling = {}
 
 class Bowling.Game
 

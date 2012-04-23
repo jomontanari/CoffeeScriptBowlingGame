@@ -22,3 +22,8 @@ describe "Rules of Bowling", ->
 
     expect(game.score()).toBe 8
 
+
+# Additional tests
+# After rolling a spare, the score should equal 10 + next ball
+# After rolling a strike, the score should equal 10 + next frame
+# If a strike or a spare is rolled in the last frame, the user gets an extra ball
